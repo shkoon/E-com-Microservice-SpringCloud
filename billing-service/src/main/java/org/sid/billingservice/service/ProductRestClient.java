@@ -13,4 +13,5 @@ public interface ProductRestClient {
 
     @GetMapping(path = "/products")
     PagedModel<Product> allProducts();
+
 }
